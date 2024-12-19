@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container for the entire content */
+  .details-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Top section for Name and Account No */
+  .header-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-details .left,
+  .header-details .right {
+    width: 48%;
+  }
+  
+  .header-details .left p,
+  .header-details .right p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .header-details .left p span,
+  .header-details .right p span {
+    font-weight: bold;
+  }
+  
+  /* Address Section */
+  .address {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .address h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Account Type Section */
+  .account-type {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .account-type span {
+    font-weight: bold;
+  }
+  
